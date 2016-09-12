@@ -1,0 +1,263 @@
+/*
+ * Licensed under GNU Public License version 3.
+ * http://www.gnu.org/copyleft/gpl.html
+ * Author: martin.skarsaune@kantega.no
+ * 
+ * */
+ button.rowButton {
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	spacing: 0;
+	align: bottom;
+	display: table-cell;
+	width: 10%;
+	font: normal;
+}
+
+div.mainElement {
+	display: block;
+}
+
+div.fullScreen {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	z-index: 900;
+}
+
+.off .on {
+	fill: none;
+	stroke: none;
+}
+
+.on {
+	fill: none;
+	stroke: none;
+}
+
+#leftArrow {
+	line-height: 45px;
+}
+
+#rightArrow {
+	line-height: 45px;
+}
+
+.on .off {
+	fill: none;
+	stroke: none;
+}
+
+.on .on {
+	fill: #146478;
+	stroke: #146478;
+}
+
+div.hidden {
+	display: none;
+}
+
+div.visible {
+	display: block;
+}
+.cover {
+
+	color: #146478;
+}
+
+body:-webkit-full-screen	{ width: 100% }
+body:-moz-full-screen		{ width: 100% }
+body:-ms-full-screen		{ width: 100% }
+body:-o-full-screen			{ width: 100% }
+body:full-screen			{ width: 100% }
+
+button {
+	color: #146478;
+}
+
+ul.Tittel {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+div.itemBox {
+	font-size: 150pt;
+	float: center;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+#buttonRow {
+	height: 20%;
+	display: table;
+	width: 100%;
+	align: right;
+	margin-left: 0;
+}
+
+span.vowel {
+	color: #d2a055;
+}
+
+svg {
+	fill: #146478;
+	stroke: #146478;
+}
+
+path.buttonLine {
+	stroke: none;
+	stroke-width: 2px;
+}
+
+line.strikeout {
+	stroke: #c87328;
+	stroke-width: 3px;
+}
+
+div.fillSpace {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+}
+
+div.inFront {
+	z-order: 1000;
+	position: absolute;
+}
+
+div.handwriting {
+	font-family: Handsome Pro, Noteworthy;
+}
+
+div.handwritingCaps {
+	font-family: Handsome Pro, Noteworthy;
+	text-transform: uppercase;
+}
+
+div.print {
+	font-family: TheSans, Sans Serif, MS Sans Serif, MS Reference Sans Serif,
+		PF Sans, sans-serif;
+}
+
+div.printCaps {
+	font-family: TheSans, Sans Serif, MS Sans Serif, MS Reference Sans Serif,
+		PF Sans, sans-serif;
+	text-transform: uppercase;
+}
+
+div.handwriting button{
+	font-family: Handsome Pro, Noteworthy;
+}
+
+div.handwritingCaps button {
+	font-family: Handsome Pro, Noteworthy;
+	text-transform: uppercase;
+}
+
+div.print button{
+	font-family: TheSans, Sans Serif, MS Sans Serif, MS Reference Sans Serif,
+		PF Sans, sans-serif;
+}
+
+div.printCaps button{
+	font-family: TheSans, Sans Serif, MS Sans Serif, MS Reference Sans Serif,
+		PF Sans, sans-serif;
+	text-transform: uppercase;
+}
+
+#words {
+	width: 100%;
+	height: 85%;
+}
+
+progress {
+	width: 100%;
+}
+
+span.syllableSeparator {
+	display: none;
+	color: #c87328;
+}
+
+
+/*   Settings page */
+span.prompt {
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+	font-size: 24pt;
+}
+
+input.slider {
+	width: 40%;
+	display: inline-block;
+	margin: 10px;
+}
+
+input.sliderValue {
+	width: 4%;
+	display: inline-block;
+	margin: 10px;
+}
+
+span.informationLabel {
+	width: 15%;
+	display: inline-block;
+	margin: 10px;
+	font-size: 24pt;
+}
+
+button.information {
+	background-image: linear-gradient(to bottom, white, rgb(20, 66, 86));
+	color: white; 
+}
+
+div.space {
+	padding-left: 10%;
+	padding-right: 10%;
+	vertical-align: middle;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+h2 {
+	margin-top: 10px;
+}
+
+p.buttons {
+	text-align: center;
+}
+
+div.content {
+	position: absolute;
+	height: 80%;
+	width: 80%;
+	overflow: auto;
+}
+
+div.buttonRow {
+	padding-top: 2%;
+	position: absolute;
+	top: 80%;
+	width: 80%;
+	text-align: center;
+}
+
+div.modalDiv {
+	background-color: white;
+}
+
+body {
+	font-size: 12pt;
+	background-image: url('../img/papp.jpg');
+}

@@ -1,0 +1,1 @@
+update PRODUCT_TYPE set NAME = 'BankAxess' where ID = 2;

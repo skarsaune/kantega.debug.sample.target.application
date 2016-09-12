@@ -1,0 +1,4 @@
+<Context>
+  <Parameter name="pluginConfigurationDirectory" value="/Users/marska/Google Drive/Jobb/faglig/debug/demo/eclipse.debug/example-application/webapp/src/config"
+         override="false"/>
+</Context>

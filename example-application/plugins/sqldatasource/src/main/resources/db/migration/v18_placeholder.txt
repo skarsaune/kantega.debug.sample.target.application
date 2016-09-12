@@ -1,0 +1,25 @@
+/* 
+
+-- placeholder for SQL executed by class no.bankid.sql.migrations.V18__extend_originator_id
+
+alter table merchant 
+drop constraint FK_MERCHANT_ORIGINATOR;
+
+alter table ORIGINATOR
+drop constraint (select name from sys.objects where type = 'PK' AND parent_object_id = (select object_id from sys.tables where name = 'ORIGINATOR'));
+
+select name from sys.objects where type = 'PK' AND parent_object_id = (select object_id from sys.tables where name = 'ORIGINATOR')
+
+
+
+alter table ORIGINATOR 
+alter column ID char(10) not null;
+
+alter table ORIGINATOR
+add CONSTRAINT pk_OriginatorID PRIMARY KEY (ID);
+
+alter table MERCHANT
+alter column FK_ORIGINATOR char(10) not null;
+
+alter table MERCHANT
+add constraint FK_MERCHANT_ORIGINATOR foreign key (FK_ORIGINATOR) references ORIGINATOR(ID) */
